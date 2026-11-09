@@ -1,0 +1,35 @@
+{
+  "id": "preparer-ma-journee",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Préparer ma journée",
+      "summary": "Prépare la journée : rendez-vous, rappels dus et mails importants depuis la veille."
+    },
+    "en": {
+      "name": "Plan my day",
+      "summary": "Prepares the day: appointments, reminders due and important mail since yesterday."
+    }
+  },
+  "needs": [
+    "organizing",
+    "calendar"
+  ],
+  "capabilities": [
+    "read-mail",
+    "read-calendar",
+    "read-reminders"
+  ],
+  "requires": [
+    "mes-mails",
+    "mon-calendrier",
+    "mes-rappels"
+  ],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT"
+}

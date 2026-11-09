@@ -1,0 +1,34 @@
+{
+  "author" : {
+    "name" : "Jannik Reinhard"
+  },
+  "capabilities" : [
+
+  ],
+  "id" : "ameliorer-son-cv",
+  "kind" : "textOnly",
+  "license" : "MIT",
+  "localized" : {
+    "en" : {
+      "name" : "resume-writer",
+      "summary" : "Writes and rewrites high-impact resumes and CVs that pass ATS screening and win recruiter attention"
+    },
+    "fr" : {
+      "name" : "TODO-fr",
+      "summary" : "TODO-fr"
+    }
+  },
+  "minimumMurmureVersion" : "1.0.0",
+  "needs" : [
+    "writing"
+  ],
+  "origin" : {
+    "author" : "Jannik Reinhard",
+    "kind" : "openclaw",
+    "url" : "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/resume-writer/SKILL.md"
+  },
+  "requires" : [
+
+  ],
+  "version" : "1.0.0"
+}

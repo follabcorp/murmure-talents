@@ -1,0 +1,29 @@
+{
+  "id": "preparer-un-discours",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Préparer un discours",
+      "summary": "Structure un discours, prépare une ouverture et une conclusion, puis entraîne-toi à voix haute."
+    },
+    "en": {
+      "name": "public-speaking-coach",
+      "summary": "Coaches a speaker to prepare and deliver a talk, presentation, toast, or pitch"
+    }
+  },
+  "needs": ["writing"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "JayRHa",
+    "url": "https://github.com/JayRHa/agent-skills"
+  }
+}

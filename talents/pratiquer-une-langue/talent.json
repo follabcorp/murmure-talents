@@ -1,0 +1,29 @@
+{
+  "id": "pratiquer-une-langue",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Pratiquer une langue",
+      "summary": "Pratique une langue à ton niveau, avec des dialogues adaptés et des corrections progressives."
+    },
+    "en": {
+      "name": "language-tutor",
+      "summary": "Acts as a personalized foreign-language tutor"
+    }
+  },
+  "needs": ["learning"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "JayRHa",
+    "url": "https://github.com/JayRHa/agent-skills"
+  }
+}

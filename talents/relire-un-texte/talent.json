@@ -1,0 +1,29 @@
+{
+  "id": "relire-un-texte",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Relire un texte",
+      "summary": "Corrige orthographe, grammaire et clarté de ton texte sans changer ce que tu veux dire."
+    },
+    "en": {
+      "name": "Proofread a text",
+      "summary": "Corrects spelling, grammar and clarity while keeping your meaning and voice."
+    }
+  },
+  "needs": ["writing"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "JayRHa",
+    "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/proofreader/SKILL.md"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "repondre-a-un-mail",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Répondre à un mail",
+      "summary": "Prépare un brouillon de réponse, envoyé seulement après validation."
+    },
+    "en": {
+      "name": "Reply to an email",
+      "summary": "Drafts a reply, sent only after approval."
+    }
+  },
+  "needs": [
+    "mail",
+    "writing"
+  ],
+  "capabilities": [
+    "read-mail",
+    "send-mail"
+  ],
+  "requires": [
+    "mes-mails"
+  ],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT"
+}

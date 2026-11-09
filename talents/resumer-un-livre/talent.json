@@ -1,0 +1,29 @@
+{
+  "id": "resumer-un-livre",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Résumer un livre",
+      "summary": "Résume un livre au niveau de détail voulu, fidèle à l’auteur et sans rien inventer."
+    },
+    "en": {
+      "name": "Book summary",
+      "summary": "Summarizes a book faithfully at the depth you want, from one line to chapter notes."
+    }
+  },
+  "needs": ["writing", "learning"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "JayRHa",
+    "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/book-summarizer/SKILL.md"
+  }
+}

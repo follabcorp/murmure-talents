@@ -1,0 +1,35 @@
+{
+  "author" : {
+    "name" : "Jannik Reinhard"
+  },
+  "capabilities" : [
+
+  ],
+  "id" : "choisir-un-cadeau",
+  "kind" : "textOnly",
+  "license" : "MIT",
+  "localized" : {
+    "en" : {
+      "name" : "gift-advisor",
+      "summary" : "Recommends thoughtful, personalized gift ideas for any recipient and occasion"
+    },
+    "fr" : {
+      "name" : "TODO-fr",
+      "summary" : "TODO-fr"
+    }
+  },
+  "minimumMurmureVersion" : "1.0.0",
+  "needs" : [
+    "writing",
+    "home"
+  ],
+  "origin" : {
+    "author" : "Jannik Reinhard",
+    "kind" : "openclaw",
+    "url" : "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/gift-advisor/SKILL.md"
+  },
+  "requires" : [
+
+  ],
+  "version" : "1.0.0"
+}

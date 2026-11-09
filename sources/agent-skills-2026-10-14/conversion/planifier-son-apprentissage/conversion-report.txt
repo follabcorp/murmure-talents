@@ -1,0 +1,3 @@
+Conversion OpenClaw — propositions à relire (français, besoins, capacités et droits).
+ACCEPTÉ [SKILL.md] planifier-son-apprentissage : TODO-fr à traduire ; besoins, capacités, dépendances et droits à relire.
+Le texte source est copié sans exécution. TODO-fr bloque validate et build-index.

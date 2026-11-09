@@ -1,0 +1,58 @@
+name: Validation du Catalogue
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+# Aucun secret ici : la PR est une donnée non fiable. Les droits d'écriture (commentaire) sont dans report.yml.
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    # Le nom du job est le contexte exigé par le ruleset du dépôt : ne pas le renommer.
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      # La base de la PR, dans un dossier séparé : l'outil lit deux racines et ne lance aucun processus.
+      - uses: actions/checkout@v4
+        if: github.event_name == 'pull_request'
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: base
+          persist-credentials: false
+      # L'outil vient d'un tag figé du dépôt d'outillage, jamais de la PR.
+      - name: Installer l'outil du Catalogue
+        run: cargo install --locked --git https://github.com/follabcorp/murmure-talents-tools --tag v20261107-7ecfdff murmure-talents
+      - name: Valider et préparer la pré-relecture
+        run: |
+          mkdir -p "$RUNNER_TEMP/catalogue-report"
+          report="$RUNNER_TEMP/catalogue-report/pre-review.txt"
+          status=0
+          murmure-talents validate . > "$report" 2>&1 || status=$?
+          if [ "${{ github.event_name }}" = "pull_request" ] && [ -d base/talents ]; then
+            # Montée de version, capacités et dépendances ajoutées ; « deux approbations de Mainteneurs requises » quand une capacité s'ajoute.
+            { echo; murmure-talents diff base .; } >> "$report" 2>&1 || status=$?
+          fi
+          # Le CODEOWNERS est généré depuis les manifestes : celui de la PR doit être identique (absent compris).
+          expected="$RUNNER_TEMP/CODEOWNERS.expected"
+          if murmure-talents codeowners . > "$expected" 2>>"$report"; then
+            if ! diff -u .github/CODEOWNERS "$expected" >> "$report" 2>&1; then
+              { echo; echo "ERREUR : .github/CODEOWNERS diffère de celui généré par \`murmure-talents codeowners .\`."; } >> "$report"
+              status=1
+            fi
+          else
+            status=1
+          fi
+          cat "$report"
+          exit "$status"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: catalogue-pre-review
+          path: ${{ runner.temp }}/catalogue-report/pre-review.txt
+          if-no-files-found: error
+          retention-days: 7

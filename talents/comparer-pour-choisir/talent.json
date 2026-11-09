@@ -1,0 +1,29 @@
+{
+  "id": "comparer-pour-choisir",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Comparer pour choisir",
+      "summary": "Compare plusieurs options avec des critères pondérés pour décider en connaissance de cause."
+    },
+    "en": {
+      "name": "Compare to decide",
+      "summary": "Compares options with weighted criteria so you can decide with clear reasons."
+    }
+  },
+  "needs": ["organizing"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "JayRHa",
+    "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/decision-matrix/SKILL.md"
+  }
+}

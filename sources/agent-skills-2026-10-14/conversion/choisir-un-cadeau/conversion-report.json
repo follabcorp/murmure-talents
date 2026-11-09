@@ -1,0 +1,14 @@
+{
+  "items" : [
+    {
+      "reason" : "choisir-un-cadeau : TODO-fr à traduire ; besoins, capacités, dépendances et droits à relire.",
+      "sourcePath" : "SKILL.md",
+      "status" : "accepted",
+      "talentID" : "choisir-un-cadeau"
+    }
+  ],
+  "review" : "Français TODO-fr, besoins, capacités, dépendances, provenance et droits à relire.",
+  "talentIDs" : [
+    "choisir-un-cadeau"
+  ]
+}

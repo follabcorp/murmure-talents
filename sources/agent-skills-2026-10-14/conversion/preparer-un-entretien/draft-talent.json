@@ -1,0 +1,35 @@
+{
+  "author" : {
+    "name" : "Jannik Reinhard"
+  },
+  "capabilities" : [
+
+  ],
+  "id" : "preparer-un-entretien",
+  "kind" : "textOnly",
+  "license" : "MIT",
+  "localized" : {
+    "en" : {
+      "name" : "interview-prep",
+      "summary" : "Prepares a candidate for a specific job interview"
+    },
+    "fr" : {
+      "name" : "TODO-fr",
+      "summary" : "TODO-fr"
+    }
+  },
+  "minimumMurmureVersion" : "1.0.0",
+  "needs" : [
+    "writing",
+    "learning"
+  ],
+  "origin" : {
+    "author" : "Jannik Reinhard",
+    "kind" : "openclaw",
+    "url" : "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/interview-prep/SKILL.md"
+  },
+  "requires" : [
+
+  ],
+  "version" : "1.0.0"
+}

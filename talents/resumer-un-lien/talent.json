@@ -1,0 +1,30 @@
+{
+  "id": "resumer-un-lien",
+  "version": "1.1.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Résumer un lien",
+      "summary": "Résume un article ou une page web en cinq points puis en un paragraphe."
+    },
+    "en": {
+      "name": "Summarize a link",
+      "summary": "Summarizes an article or web page in five points, then in one paragraph."
+    }
+  },
+  "needs": [
+    "learning"
+  ],
+  "capabilities": [
+    "browse-web"
+  ],
+  "requires": [
+    "naviguer-sur-le-web"
+  ],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT"
+}

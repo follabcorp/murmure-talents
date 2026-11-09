@@ -1,0 +1,34 @@
+{
+  "id": "mail-en-rappel-ou-rendez-vous",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "D'un mail à un rappel",
+      "summary": "Trouve une échéance ou un rendez-vous dans un mail et propose de le créer, après accord."
+    },
+    "en": {
+      "name": "From an email to a reminder",
+      "summary": "Finds a deadline or appointment in an email and proposes creating it, after approval."
+    }
+  },
+  "needs": [
+    "organizing"
+  ],
+  "capabilities": [
+    "read-mail",
+    "edit-calendar",
+    "edit-reminders"
+  ],
+  "requires": [
+    "mes-mails",
+    "mon-calendrier",
+    "mes-rappels"
+  ],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT"
+}

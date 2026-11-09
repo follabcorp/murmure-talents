@@ -1,0 +1,29 @@
+{
+  "id": "organiser-une-fete",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Organiser une fête",
+      "summary": "Prépare le budget, les invitations, le déroulé et les solutions de repli de ton événement."
+    },
+    "en": {
+      "name": "event-planner",
+      "summary": "Plans events end-to-end — birthdays, weddings, dinner parties, offsites, conferences, fundraisers"
+    }
+  },
+  "needs": ["organizing"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "JayRHa",
+    "url": "https://github.com/JayRHa/agent-skills"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "author" : {
+    "name" : "Jannik Reinhard"
+  },
+  "capabilities" : [
+
+  ],
+  "id" : "comprendre-un-concept",
+  "kind" : "textOnly",
+  "license" : "MIT",
+  "localized" : {
+    "en" : {
+      "name" : "concept-explainer",
+      "summary" : "Explains complex or technical concepts clearly at the right level for the audience"
+    },
+    "fr" : {
+      "name" : "TODO-fr",
+      "summary" : "TODO-fr"
+    }
+  },
+  "minimumMurmureVersion" : "1.0.0",
+  "needs" : [
+    "writing",
+    "learning"
+  ],
+  "origin" : {
+    "author" : "Jannik Reinhard",
+    "kind" : "openclaw",
+    "url" : "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/concept-explainer/SKILL.md"
+  },
+  "requires" : [
+
+  ],
+  "version" : "1.0.0"
+}

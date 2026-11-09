@@ -1,0 +1,29 @@
+{
+  "id": "revue-de-la-semaine",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Revue de la semaine",
+      "summary": "Fais le point sur ta semaine passée et prépare la suivante sans te surcharger."
+    },
+    "en": {
+      "name": "Weekly review",
+      "summary": "Looks back at your week, spots what is slipping and plans a realistic week ahead."
+    }
+  },
+  "needs": ["organizing", "calendar"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "Ben Barclay (benbarclay), Hermes Agent",
+    "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/skills/productivity/weekly-review-planning/SKILL.md"
+  }
+}

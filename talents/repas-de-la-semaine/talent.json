@@ -1,0 +1,29 @@
+{
+  "id": "repas-de-la-semaine",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Repas de la semaine",
+      "summary": "Prépare le menu de la semaine et la liste de courses qui va avec."
+    },
+    "en": {
+      "name": "Weekly meals",
+      "summary": "Plans a week of meals with a consolidated shopping list and optional batch cooking."
+    }
+  },
+  "needs": ["cooking", "organizing"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "JayRHa",
+    "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/meal-plan-builder/SKILL.md"
+  }
+}

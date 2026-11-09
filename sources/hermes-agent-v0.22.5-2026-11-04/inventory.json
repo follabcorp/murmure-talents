@@ -1,0 +1,221 @@
+{
+  "repository": "https://github.com/NousResearch/hermes-agent",
+  "commit": "bf0203a794a07aac3ff764972ab9087baa4e4f4e",
+  "licenseSHA256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
+  "items": [
+    {
+      "source": "weekly-review-planning",
+      "id": "revue-de-la-semaine",
+      "nameFR": "Revue de la semaine",
+      "summaryFR": "Fais le point sur ta semaine passée et prépare la suivante sans te surcharger.",
+      "need": [
+        "organizing",
+        "calendar"
+      ],
+      "license": "MIT",
+      "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/skills/productivity/weekly-review-planning/SKILL.md",
+      "files": [
+        {
+          "path": "original/weekly-review-planning/SKILL.md",
+          "sha256": "a689257facb937cfca9bc5507dd9e729f287f0cd3f6abbf73448eb25f73fbaab",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/skills/productivity/weekly-review-planning/SKILL.md"
+        }
+      ],
+      "scriptsNotCopied": []
+    },
+    {
+      "source": "document-to-action-items",
+      "id": "reperer-les-echeances",
+      "nameFR": "Repérer les échéances d’un document",
+      "summaryFR": "Lis un document officiel avec toi : dates limites, montants, obligations et points flous.",
+      "need": [
+        "paperwork",
+        "organizing"
+      ],
+      "license": "MIT",
+      "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/skills/productivity/document-to-action-items/SKILL.md",
+      "files": [
+        {
+          "path": "original/document-to-action-items/SKILL.md",
+          "sha256": "8a7556754aca2a7d04d38847131fb4db8d6705fa2106fcb154279e26117b41ee",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/skills/productivity/document-to-action-items/SKILL.md"
+        }
+      ],
+      "scriptsNotCopied": []
+    },
+    {
+      "source": "one-three-one-rule",
+      "id": "decider-en-trois-options",
+      "nameFR": "Décider entre trois options",
+      "summaryFR": "Présente le problème, trois pistes avec leurs avantages et limites, une recommandation et un plan.",
+      "need": [
+        "organizing"
+      ],
+      "license": "MIT",
+      "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/communication/one-three-one-rule/SKILL.md",
+      "files": [
+        {
+          "path": "original/one-three-one-rule/SKILL.md",
+          "sha256": "31ae7d7c5fc127d7f49d3282c3f93e3e3c3afa295f9bbd6660cc88ca9248248b",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/communication/one-three-one-rule/SKILL.md"
+        }
+      ],
+      "scriptsNotCopied": []
+    },
+    {
+      "source": "creative-ideation",
+      "id": "trouver-des-idees",
+      "nameFR": "Trouver des idées",
+      "summaryFR": "Débloque ton imagination avec une méthode adaptée pour trouver des idées concrètes.",
+      "need": [
+        "writing",
+        "organizing"
+      ],
+      "license": "MIT",
+      "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/SKILL.md",
+      "files": [
+        {
+          "path": "original/creative-ideation/SKILL.md",
+          "sha256": "b0b2a36387ecdf363550a341ee6941fe4fae0443564d730c0121a6a66114f36c",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/SKILL.md"
+        },
+        {
+          "path": "original/creative-ideation/references/anti-slop.md",
+          "sha256": "796a13eb2261da541bc88e998107bde05051afe98d4593067014870ddbec4622",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/anti-slop.md"
+        },
+        {
+          "path": "original/creative-ideation/references/exercises.md",
+          "sha256": "26d06abe06a0e9fc0777fdd1c94845bd7438d2085ebcf720b614cc4304193817",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/exercises.md"
+        },
+        {
+          "path": "original/creative-ideation/references/full-prompt-library.md",
+          "sha256": "2ff29d678fe05c5f4e3bf8cfa427fa388f04af1817820acde03d34d325ee403e",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/full-prompt-library.md"
+        },
+        {
+          "path": "original/creative-ideation/references/heuristics.md",
+          "sha256": "77e4a4e6d84d46a2032dacafce7f3aac7c84369d0567573d3f543454791ac71d",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/heuristics.md"
+        },
+        {
+          "path": "original/creative-ideation/references/method-catalog.md",
+          "sha256": "7e2c3ea7a665b34e869732cc9cbe1e3fb3bcaf2775925b764c1985af8375ffc8",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/method-catalog.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/affinity-diagrams.md",
+          "sha256": "530d23c4a5318081abdb02dd9a16cdccfb710f6ff3c59ca4c655103847ca1ee5",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/affinity-diagrams.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/analogy-and-blending.md",
+          "sha256": "c4791856bd9cfa6cc466a7afd41a6d575e8ea891f37c3f82cc5615df6acc0d36",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/analogy-and-blending.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/biomimicry.md",
+          "sha256": "858c03f00d012274ee1dd8ecb1dcbc3f0b863dfeffc81a5aee850a013ba6afb8",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/biomimicry.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/chance-and-remix.md",
+          "sha256": "9598c9f6ebafdfa23c4066b50b6fb9ebe2c45867786095b7775d8b5e52163c94",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/chance-and-remix.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/compression-progress.md",
+          "sha256": "bd4950f559d03ef2a225adc73cf6452acfc3d8863e41cf82ecf518aae26c29f0",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/compression-progress.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/creative-discipline.md",
+          "sha256": "c9bb83348fd90b1315c5d78bbbe4f18d30b3c1b8378037588442cb38404fa77d",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/creative-discipline.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/defamiliarization.md",
+          "sha256": "588095139e2d48ab2c1af5af74676aca0bfc922f2d294c69dcb7c8351b3f8878",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/defamiliarization.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/derive-and-mapping.md",
+          "sha256": "16b88dee7743896616c4e81aa24cb736a4b85597f2527bc1094914d16108e354",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/derive-and-mapping.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/first-principles.md",
+          "sha256": "a16641171d7c2f2174f11ebb265a62d05e4872f41fb0165d8b59b5652c82a071",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/first-principles.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/jobs-to-be-done.md",
+          "sha256": "35572cbcb92f3281ee066821dede7d968b319be5c9c51a842f8852efa63adf27",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/jobs-to-be-done.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/lateral-provocations.md",
+          "sha256": "de8149d9e88b0caf2fed9204fdabf5aded1fca374820a79bc21e228a1be01f8f",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/lateral-provocations.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/leverage-points.md",
+          "sha256": "64843a765d197451c5a6b914f27ae96e1332df6196d39b52298f62609c5c3cbd",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/leverage-points.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/oblique-strategies.md",
+          "sha256": "4dfeb8b6fe9440c6432c77d8c14a680a4494fd42e8732269e18515e0b26d163a",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/oblique-strategies.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/oulipo.md",
+          "sha256": "939f40ca502fb462a63609ef98f8cf484b96dd57ba380cfbbd5eb4eac36eb946",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/oulipo.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/pataphysics.md",
+          "sha256": "23440de3e5a336154c24c002a66238cd1ddce166675a479a56d505c1e157af1a",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/pataphysics.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/pattern-languages.md",
+          "sha256": "4337612cae61449b33a09417dffb4f078437c034d018d70d0bce94191a9c6040",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/pattern-languages.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/polya.md",
+          "sha256": "3d2cc6a75fac4cb488ddfbf8c895d7545fe7847f8f7ee6f58e4d44e5f99bcb33",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/polya.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/premortem-and-inversion.md",
+          "sha256": "188f1897e66276942bfadd0c54b1821b867487ff60ee9265583bbd439497a71f",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/premortem-and-inversion.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/scamper.md",
+          "sha256": "73ab6700be4c46723a9a0d74845ce3f7ea0f722b476046ce440481790ec0cc6b",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/scamper.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/story-skeletons.md",
+          "sha256": "17925ac3f62ecb730561bf118a0c2e55d509cc4c8ec85394b51506435bf73881",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/story-skeletons.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/triz-principles.md",
+          "sha256": "a4c877bc84f5fec2318c7a4929b86dbf1e48186d9510aff2e9a103ba9198c7a7",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/triz-principles.md"
+        },
+        {
+          "path": "original/creative-ideation/references/methods/volume-generation.md",
+          "sha256": "605a9b158a5d7f6305d61c7c14f50584e87b8201749492256c8e3d352c35e06c",
+          "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/references/methods/volume-generation.md"
+        }
+      ],
+      "scriptsNotCopied": []
+    }
+  ]
+}

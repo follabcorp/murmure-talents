@@ -1,0 +1,14 @@
+{
+  "items" : [
+    {
+      "reason" : "preparer-un-discours : TODO-fr à traduire ; besoins, capacités, dépendances et droits à relire.",
+      "sourcePath" : "SKILL.md",
+      "status" : "accepted",
+      "talentID" : "preparer-un-discours"
+    }
+  ],
+  "review" : "Français TODO-fr, besoins, capacités, dépendances, provenance et droits à relire.",
+  "talentIDs" : [
+    "preparer-un-discours"
+  ]
+}

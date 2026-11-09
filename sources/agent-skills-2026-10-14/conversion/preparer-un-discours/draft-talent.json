@@ -1,0 +1,35 @@
+{
+  "author" : {
+    "name" : "Jannik Reinhard"
+  },
+  "capabilities" : [
+
+  ],
+  "id" : "preparer-un-discours",
+  "kind" : "textOnly",
+  "license" : "MIT",
+  "localized" : {
+    "en" : {
+      "name" : "public-speaking-coach",
+      "summary" : "Coaches a speaker to prepare and deliver a talk, presentation, toast, or pitch"
+    },
+    "fr" : {
+      "name" : "TODO-fr",
+      "summary" : "TODO-fr"
+    }
+  },
+  "minimumMurmureVersion" : "1.0.0",
+  "needs" : [
+    "travel",
+    "writing"
+  ],
+  "origin" : {
+    "author" : "Jannik Reinhard",
+    "kind" : "openclaw",
+    "url" : "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/public-speaking-coach/SKILL.md"
+  },
+  "requires" : [
+
+  ],
+  "version" : "1.0.0"
+}

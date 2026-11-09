@@ -1,0 +1,30 @@
+{
+  "id": "resume-de-mes-mails",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Résumé de mes mails",
+      "summary": "Résume les mails reçus depuis la veille ou depuis une date, avec ce qui demande une réponse."
+    },
+    "en": {
+      "name": "Summary of my mail",
+      "summary": "Summarises the mail received since yesterday or since a given date, with what needs a reply."
+    }
+  },
+  "needs": [
+    "mail"
+  ],
+  "capabilities": [
+    "read-mail"
+  ],
+  "requires": [
+    "mes-mails"
+  ],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT"
+}

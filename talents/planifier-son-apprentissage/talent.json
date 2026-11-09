@@ -1,0 +1,29 @@
+{
+  "id": "planifier-son-apprentissage",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Planifier son apprentissage",
+      "summary": "Construis un parcours réaliste avec pratique active, révisions espacées et étapes vérifiables."
+    },
+    "en": {
+      "name": "study-plan-builder",
+      "summary": "Builds a realistic, personalized learning roadmap for a skill or subject"
+    }
+  },
+  "needs": ["learning"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "JayRHa",
+    "url": "https://github.com/JayRHa/agent-skills"
+  }
+}
