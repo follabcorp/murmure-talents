@@ -1,0 +1,29 @@
+{
+  "id": "fiches-de-revision",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Fiches de révision",
+      "summary": "Transforme un cours ou des notes en fiches questions-réponses efficaces pour mémoriser."
+    },
+    "en": {
+      "name": "Study flashcards",
+      "summary": "Turns notes or a topic into effective flashcards for long-term memory."
+    }
+  },
+  "needs": ["learning"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "JayRHa",
+    "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/flashcard-generator/SKILL.md"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rediger-une-lettre-de-motivation",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Lettre de motivation",
+      "summary": "Relie tes réalisations réelles aux besoins d’un poste dans une lettre courte et personnalisée."
+    },
+    "en": {
+      "name": "cover-letter-writer",
+      "summary": "Writes tailored, persuasive cover letters that connect a candidate's concrete achievements to a specific role and company"
+    }
+  },
+  "needs": ["writing"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "JayRHa",
+    "url": "https://github.com/JayRHa/agent-skills"
+  }
+}

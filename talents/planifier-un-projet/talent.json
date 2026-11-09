@@ -1,0 +1,29 @@
+{
+  "id": "planifier-un-projet",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Planifier un projet",
+      "summary": "Découpe un projet (déménagement, travaux, événement) en étapes, avec calendrier et risques."
+    },
+    "en": {
+      "name": "Plan a project",
+      "summary": "Breaks a project such as a move or renovation into steps, a timeline and risks."
+    }
+  },
+  "needs": ["organizing", "home"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "JayRHa",
+    "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/project-planner/SKILL.md"
+  }
+}

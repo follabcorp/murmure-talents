@@ -1,0 +1,29 @@
+{
+  "id": "ecrire-un-article",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Écrire un article",
+      "summary": "Écris un article ou un billet de blog clair, avec une accroche et un plan."
+    },
+    "en": {
+      "name": "Write an article",
+      "summary": "Helps you write a clear article or blog post with a strong opening and simple structure."
+    }
+  },
+  "needs": ["writing"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "JayRHa",
+    "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/blog-post-writer/SKILL.md"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "reason": "proposition à relire (français, besoins, capacités)",
+      "sourcePath": "communication/one-three-one-rule/SKILL.md",
+      "status": "accepted",
+      "talentId": "one-three-one-rule"
+    },
+    {
+      "reason": "proposition à relire (français, besoins, capacités)",
+      "sourcePath": "creative/creative-ideation/SKILL.md",
+      "status": "accepted",
+      "talentId": "creative-ideation"
+    },
+    {
+      "reason": "proposition à relire (français, besoins, capacités)",
+      "sourcePath": "productivity/decision-questionnaire/SKILL.md",
+      "status": "accepted",
+      "talentId": "decision-questionnaire"
+    },
+    {
+      "reason": "proposition à relire (français, besoins, capacités)",
+      "sourcePath": "productivity/document-to-action-items/SKILL.md",
+      "status": "accepted",
+      "talentId": "document-to-action-items"
+    },
+    {
+      "reason": "proposition à relire (français, besoins, capacités)",
+      "sourcePath": "productivity/weekly-review-planning/SKILL.md",
+      "status": "accepted",
+      "talentId": "weekly-review-planning"
+    }
+  ],
+  "review": "Propositions à relire : français, besoins, capacités et droits. TODO-fr bloque validate.",
+  "talentIds": [
+    "one-three-one-rule",
+    "creative-ideation",
+    "decision-questionnaire",
+    "document-to-action-items",
+    "weekly-review-planning"
+  ]
+}

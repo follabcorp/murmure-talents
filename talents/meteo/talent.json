@@ -1,0 +1,32 @@
+{
+  "id": "meteo",
+  "version": "1.1.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Météo",
+      "summary": "Donne la météo d'une ville à partir d'une source publique."
+    },
+    "en": {
+      "name": "Weather",
+      "summary": "Gives the weather for a city from a public source."
+    }
+  },
+  "needs": [
+    "travel",
+    "home"
+  ],
+  "capabilities": [
+    "web-search",
+    "browse-web"
+  ],
+  "requires": [
+    "naviguer-sur-le-web"
+  ],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT"
+}

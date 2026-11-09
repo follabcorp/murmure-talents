@@ -1,0 +1,353 @@
+{
+  "repository": "https://github.com/JayRHa/agent-skills",
+  "commit": "f9a456bf34c297bd23fb234f410ec9b239ebed14",
+  "skillCommit": "9cacaa0d2bb781c63f0af58fd663e803bc5f6821",
+  "licenseSHA256": "630940e0b757ab435231211c5e503dc40919a8c3f78ce16f45374123efadb91d",
+  "items": [
+    {
+      "source": "gift-advisor",
+      "id": "choisir-un-cadeau",
+      "nameFR": "Choisir un cadeau",
+      "summaryFR": "Trouve des idées de cadeaux adaptées à la personne, à l’occasion et au budget.",
+      "need": "organizing",
+      "author": "Jannik Reinhard",
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/gift-advisor/SKILL.md",
+      "summaryEN": "Recommends thoughtful, personalized gift ideas for any recipient and occasion",
+      "originalDescription": "Recommends thoughtful, personalized gift ideas for any recipient and occasion — by profiling interests, relationship, budget, and occasion, then generating ranked, specific suggestions with reasoning, price tiers, and backup options. Use this skill when a user asks \"what should I get X\", \"gift ideas for my mom/partner/coworker\", \"birthday/anniversary/holiday present\", \"I don't know what to buy\", or wants help choosing a present within a budget.",
+      "inputSHA256": "9215425d24631c7e12d8aed697f49835b4e9ce7843a85ce631ba8e2d2335c8c0",
+      "files": [
+        {
+          "path": "original/gift-advisor/SKILL.md",
+          "sha256": "d01d60c9a8821c853c15a2a2d66de443313c5cb0ef705f032bf2b11dc99958bb",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/gift-advisor/SKILL.md"
+        },
+        {
+          "path": "original/gift-advisor/examples/gift-for-dad.md",
+          "sha256": "efca4a5c3c9e7242d1cbe79881feed6105bd7446e22c2540f4cf5edf71b2e9bf",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/gift-advisor/examples/gift-for-dad.md"
+        },
+        {
+          "path": "original/gift-advisor/references/gift-principles.md",
+          "sha256": "86e838751a4f80954056a34d90c5f7d136914a038b81c5056621fd487f888218",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/gift-advisor/references/gift-principles.md"
+        },
+        {
+          "path": "original/gift-advisor/references/idea-categories.md",
+          "sha256": "305d1774d1e0ab55044e6de23b18f780f97b4cb2e39365eaaba3f23e9fc46ed3",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/gift-advisor/references/idea-categories.md"
+        }
+      ]
+    },
+    {
+      "source": "event-planner",
+      "id": "organiser-une-fete",
+      "nameFR": "Organiser une fête",
+      "summaryFR": "Prépare le budget, les invitations, le déroulé et les solutions de repli de ton événement.",
+      "need": "organizing",
+      "author": "Jannik Reinhard",
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/event-planner/SKILL.md",
+      "summaryEN": "Plans events end-to-end — birthdays, weddings, dinner parties, offsites, conferences, fundraisers",
+      "originalDescription": "Plans events end-to-end — birthdays, weddings, dinner parties, offsites, conferences, fundraisers — with a budget breakdown, guest and venue logistics, a backward-planned timeline, vendor checklist, run-of-show, and contingency plans. Use this skill when a user asks to \"help me plan a party / wedding / event\", \"organize an offsite or conference\", \"throw a dinner for X people\", \"make an event timeline / checklist\", or wants a budget and run-of-show for a gathering.",
+      "inputSHA256": "e489a9873d4054d42b8870e98cd2a939c25f85c201955069ff2413c4056aa164",
+      "files": [
+        {
+          "path": "original/event-planner/SKILL.md",
+          "sha256": "97e3c2329edb84371a040ca25d31e7d127b962f30f58acf1eea2a438fdc2db7e",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/event-planner/SKILL.md"
+        },
+        {
+          "path": "original/event-planner/examples/30th-birthday.md",
+          "sha256": "500b8016934168c0825c258cd9b443dcaf9274fcaa158c5b960c65ddcacbd5bc",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/event-planner/examples/30th-birthday.md"
+        },
+        {
+          "path": "original/event-planner/references/budget-and-vendors.md",
+          "sha256": "a387a3242fd529c01632c714c3f7abe0b0d72d3ea3b45d503a68dd3533fffe5a",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/event-planner/references/budget-and-vendors.md"
+        },
+        {
+          "path": "original/event-planner/references/timeline.md",
+          "sha256": "95b1412397c8217fcf8e186013f3ab9347d2ecf25c1f3ca9203409a36f31bc47",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/event-planner/references/timeline.md"
+        }
+      ]
+    },
+    {
+      "source": "concept-explainer",
+      "id": "comprendre-un-concept",
+      "nameFR": "Comprendre un concept",
+      "summaryFR": "Éclaire une idée difficile avec une analogie, un exemple et une vérification de compréhension.",
+      "need": "learning",
+      "author": "Jannik Reinhard",
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/concept-explainer/SKILL.md",
+      "summaryEN": "Explains complex or technical concepts clearly at the right level for the audience",
+      "originalDescription": "Explains complex or technical concepts clearly at the right level for the audience, using layered depth, concrete analogies, worked examples, and checks for understanding — adapting from ELI5 to expert. Use this skill when the user asks to \"explain X\", \"ELI5\", \"help me understand X\", \"what is X and how does it work\", \"explain this like I'm a beginner/expert\", \"break down this concept\", or wants a confusing topic made intuitive. Works for technical, scientific, financial, or abstract topics.",
+      "inputSHA256": "7eda1c487b9cfcf8563b3e96cfe2f0294bfef13220603412df51e60d34321a1a",
+      "files": [
+        {
+          "path": "original/concept-explainer/SKILL.md",
+          "sha256": "13dd58690d0299a0401f66a1805f241cea7e58f7a0decbc4e66f2737f4851652",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/concept-explainer/SKILL.md"
+        },
+        {
+          "path": "original/concept-explainer/examples/explain-recursion.md",
+          "sha256": "657411d1bec31b03a12758257c9ccd7d8ac549f7b34a308623a49f1ed33448a0",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/concept-explainer/examples/explain-recursion.md"
+        },
+        {
+          "path": "original/concept-explainer/references/techniques.md",
+          "sha256": "26af8956b2cbd3f3fc6696f8dfcaa1aa1c4777d2592aebeddd76e11fbfa611de",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/concept-explainer/references/techniques.md"
+        }
+      ]
+    },
+    {
+      "source": "public-speaking-coach",
+      "id": "preparer-un-discours",
+      "nameFR": "Préparer un discours",
+      "summaryFR": "Structure un discours, prépare une ouverture et une conclusion, puis entraîne-toi à voix haute.",
+      "need": "writing",
+      "author": "Jannik Reinhard",
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/public-speaking-coach/SKILL.md",
+      "summaryEN": "Coaches a speaker to prepare and deliver a talk, presentation, toast, or pitch",
+      "originalDescription": "Coaches a speaker to prepare and deliver a talk, presentation, toast, or pitch — shaping a core message and narrative arc, structuring the talk, writing a strong open and close, tightening delivery, and managing nerves and Q&A. Use this skill when a user asks to \"help me with a speech\", \"prepare a talk/presentation\", \"write a toast / wedding speech / eulogy\", \"practice my pitch\", \"manage public-speaking anxiety\", or wants feedback on a draft talk.",
+      "inputSHA256": "dfd65e0c05f364c6f74f17dd41bf24c5c3cdd303a05f067ed560c48b4beaea97",
+      "files": [
+        {
+          "path": "original/public-speaking-coach/SKILL.md",
+          "sha256": "de2f27111460ff88a39502bac283f9d39518a76a4e1c9900f1b7ee607748b24b",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/public-speaking-coach/SKILL.md"
+        },
+        {
+          "path": "original/public-speaking-coach/examples/wedding-toast.md",
+          "sha256": "5a064b667294c402d9d2efce8dcea4cf71f0f005e73a066ce39431d066fe044c",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/public-speaking-coach/examples/wedding-toast.md"
+        },
+        {
+          "path": "original/public-speaking-coach/references/delivery-and-nerves.md",
+          "sha256": "9d5ad572e633bf140f8c85d6cb76217c9d15df7b0c499707038c3b174878dd8e",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/public-speaking-coach/references/delivery-and-nerves.md"
+        },
+        {
+          "path": "original/public-speaking-coach/references/structure-and-stories.md",
+          "sha256": "4148c4367de6e8e8ca79c3e1fcd2c65d7c78f796da576b58d476b1ef6686f256",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/public-speaking-coach/references/structure-and-stories.md"
+        }
+      ]
+    },
+    {
+      "source": "cover-letter-writer",
+      "id": "rediger-une-lettre-de-motivation",
+      "nameFR": "Lettre de motivation",
+      "summaryFR": "Relie tes réalisations réelles aux besoins d’un poste dans une lettre courte et personnalisée.",
+      "need": "writing",
+      "author": "Jannik Reinhard",
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/cover-letter-writer/SKILL.md",
+      "summaryEN": "Writes tailored, persuasive cover letters that connect a candidate's concrete achievements to a specific role and company",
+      "originalDescription": "Writes tailored, persuasive cover letters that connect a candidate's concrete achievements to a specific role and company — with a strong hook, evidence-backed body, and clear close. Use this skill when a user asks to \"write a cover letter\", \"write a motivation letter\", \"cover letter for this job\", \"letter of interest\", or wants help explaining a career change, employment gap, or why they want a particular role.",
+      "inputSHA256": "412a640f2cf3f6bc142fc88c6768bc2fda2bb32fb7c470dd3f48e24066764edd",
+      "files": [
+        {
+          "path": "original/cover-letter-writer/SKILL.md",
+          "sha256": "b50e89c366b82764bc995a2902cd5b640d1b71ba7a50df35f5a9874536a2c681",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/cover-letter-writer/SKILL.md"
+        },
+        {
+          "path": "original/cover-letter-writer/examples/career-change.md",
+          "sha256": "8ce116ad2dcd807cc9eca61db7b17ae92a0451678d7eae390c7880e8a6941568",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/cover-letter-writer/examples/career-change.md"
+        },
+        {
+          "path": "original/cover-letter-writer/references/structure-and-openers.md",
+          "sha256": "d5dc3779cea0414268d0208dc100c0955514af61b92edd968edc6efd827c2063",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/cover-letter-writer/references/structure-and-openers.md"
+        }
+      ]
+    },
+    {
+      "source": "interview-prep",
+      "id": "preparer-un-entretien",
+      "nameFR": "Préparer un entretien",
+      "summaryFR": "Prépare tes exemples vécus, les questions difficiles et une simulation d’entretien avec retour précis.",
+      "need": "organizing",
+      "author": "Jannik Reinhard",
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/interview-prep/SKILL.md",
+      "summaryEN": "Prepares a candidate for a specific job interview",
+      "originalDescription": "Prepares a candidate for a specific job interview — generating likely questions, coaching STAR-method stories, drilling behavioral and role-specific answers, and producing smart questions to ask back. Use this skill when a user asks to \"help me prep for an interview\", \"what questions will they ask\", \"practice interview questions\", \"build STAR stories\", \"prepare for a behavioral/technical/system-design interview\", or wants a mock interview for a given role and company.",
+      "inputSHA256": "bcd977e239cdb939f0a4d0b11d14c8adfc7a9a8787df27ddbc79d72812a39a09",
+      "files": [
+        {
+          "path": "original/interview-prep/SKILL.md",
+          "sha256": "ce4841dbc994687270f768accd04df2ae464e2e5597220eefcacecc123442697",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/interview-prep/SKILL.md"
+        },
+        {
+          "path": "original/interview-prep/examples/behavioral-star.md",
+          "sha256": "0b1973397b0973a96887610beb3d1dafc92f45fb52061a9ca2708bcd4342385a",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/interview-prep/examples/behavioral-star.md"
+        },
+        {
+          "path": "original/interview-prep/references/question-bank.md",
+          "sha256": "0d88e93ee2f331d935cfb3ce36d1c923fe48c3f3ab1c6176d20afe1191a62ac1",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/interview-prep/references/question-bank.md"
+        },
+        {
+          "path": "original/interview-prep/references/star-method.md",
+          "sha256": "c482df4b7ecb3e8976aedab2860f797f7d013782da064ad7f94ff46083b16ffe",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/interview-prep/references/star-method.md"
+        },
+        {
+          "path": "original/interview-prep/references/tricky-questions.md",
+          "sha256": "426f90c50f0e5720a81e03bdc2436d4dd55b4c4b0f20da73923e707df05ed173",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/interview-prep/references/tricky-questions.md"
+        }
+      ]
+    },
+    {
+      "source": "study-plan-builder",
+      "id": "planifier-son-apprentissage",
+      "nameFR": "Planifier son apprentissage",
+      "summaryFR": "Construis un parcours réaliste avec pratique active, révisions espacées et étapes vérifiables.",
+      "need": "learning",
+      "author": "Jannik Reinhard",
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/study-plan-builder/SKILL.md",
+      "summaryEN": "Builds a realistic, personalized learning roadmap for a skill or subject",
+      "originalDescription": "Builds a realistic, personalized learning roadmap for a skill or subject — with milestones, curated resource types, active practice, spaced review, and progress checkpoints — fit to the learner's deadline and weekly time budget. Use this skill when the user asks to \"make a study plan\", \"create a learning roadmap\", \"help me learn X in N weeks\", \"plan how to study for an exam\", \"build a curriculum\", or wants a structured path to master a topic. Grounded in learning-science principles (spacing, retrieval, interleaving).",
+      "inputSHA256": "198254b7b37039b06f9b828a6fefb10fe9a9be6ef0379b3e7b12067cf34b3c94",
+      "files": [
+        {
+          "path": "original/study-plan-builder/SKILL.md",
+          "sha256": "c95dabf6fd3f49dd02b8d76e1aa1f86301f6856ed6795f231685f59d6fb8cbf0",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/study-plan-builder/SKILL.md"
+        },
+        {
+          "path": "original/study-plan-builder/references/learning-science.md",
+          "sha256": "13968e751420916d6acca361d8aaae84d15bff109edea217dd231d8dc72cc8e5",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/study-plan-builder/references/learning-science.md"
+        },
+        {
+          "path": "original/study-plan-builder/templates/study-plan.md",
+          "sha256": "2cf7df05cbeaf145e2c8979bdcd7e3bf8b88bfe37b3548c42ca2e6b42a38468d",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/study-plan-builder/templates/study-plan.md"
+        }
+      ]
+    },
+    {
+      "source": "language-tutor",
+      "id": "pratiquer-une-langue",
+      "nameFR": "Pratiquer une langue",
+      "summaryFR": "Pratique une langue à ton niveau, avec des dialogues adaptés et des corrections progressives.",
+      "need": "learning",
+      "author": "Jannik Reinhard",
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/language-tutor/SKILL.md",
+      "summaryEN": "Acts as a personalized foreign-language tutor",
+      "originalDescription": "Acts as a personalized foreign-language tutor — assessing level, running graded conversation practice, teaching vocabulary and grammar in context, correcting errors gently, and building a spaced-repetition study plan toward a concrete goal. Use this skill when a user asks to \"help me learn/practice X language\", \"be my language tutor\", \"practice Spanish/French/German conversation\", \"correct my writing in X\", \"teach me phrases for travel\", or wants a structured language-learning plan.",
+      "inputSHA256": "5d49b2bf2bbd3c0f8ab3ae13cfb90bc2774143d304746c3cdf8847b3449e0340",
+      "files": [
+        {
+          "path": "original/language-tutor/SKILL.md",
+          "sha256": "88480bb660eb52babff85ae058f7d631c55a35a1ede6e0d14e2767d18b3ccb25",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/language-tutor/SKILL.md"
+        },
+        {
+          "path": "original/language-tutor/examples/spanish-session.md",
+          "sha256": "6d6f53b451889c98a999feedf1c72d01da070372d9527d14945d8c5a835aeacd",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/language-tutor/examples/spanish-session.md"
+        },
+        {
+          "path": "original/language-tutor/references/cefr-levels.md",
+          "sha256": "34915a64151fd7d7c2f3eec8a6925964a2a3f5c8428a7a7b794ea0734b72b30b",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/language-tutor/references/cefr-levels.md"
+        },
+        {
+          "path": "original/language-tutor/references/correction-techniques.md",
+          "sha256": "3b9c4c7f63fc82541def4ffa92a44c389c2b386474038663aced6de973959ca4",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/language-tutor/references/correction-techniques.md"
+        }
+      ]
+    },
+    {
+      "source": "habit-builder",
+      "id": "construire-une-habitude",
+      "nameFR": "Construire une habitude",
+      "summaryFR": "Transforme une intention en petit geste régulier avec un déclencheur, un suivi et un plan de reprise.",
+      "need": "organizing",
+      "author": "Jannik Reinhard",
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/habit-builder/SKILL.md",
+      "summaryEN": "Designs a realistic, evidence-based plan to build a new habit or break a bad one",
+      "originalDescription": "Designs a realistic, evidence-based plan to build a new habit or break a bad one — using cue-routine-reward loops, habit stacking, environment design, tiny starting steps, and relapse-proof tracking. Use this skill when a user asks to \"help me build a habit\", \"stop a bad habit\", \"be more consistent\", \"create a morning/evening routine\", \"stick to X\", or wants a system to make a behavior automatic.",
+      "inputSHA256": "9d4cff9c45377eda18a51855048b54a3c5222cc3a80b58fe9f5ce0a1ed57c2c3",
+      "files": [
+        {
+          "path": "original/habit-builder/SKILL.md",
+          "sha256": "8a11b6346f311b97b0995c759c1f909deb82f23a9e7400930ad296c3d62aa68a",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/habit-builder/SKILL.md"
+        },
+        {
+          "path": "original/habit-builder/examples/morning-routine.md",
+          "sha256": "c29729dd281138761652f326df03aa71095781f85cd1fc273d1abb35761104ad",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/habit-builder/examples/morning-routine.md"
+        },
+        {
+          "path": "original/habit-builder/references/environment-design.md",
+          "sha256": "09bc67f455f17701dd9c1db79c67a712527bd283c1adaf3727e47f707e12a6e5",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/habit-builder/references/environment-design.md"
+        },
+        {
+          "path": "original/habit-builder/references/habit-loop.md",
+          "sha256": "3a3b0bd70ae745444c2968ba3a0ab78fd1182da459a0e8b5aa26b971f032fd36",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/habit-builder/references/habit-loop.md"
+        }
+      ]
+    },
+    {
+      "source": "resume-writer",
+      "id": "ameliorer-son-cv",
+      "nameFR": "Améliorer son CV",
+      "summaryFR": "Adapte ton CV à un poste en mettant en avant tes réalisations sans inventer d’expérience ni de chiffres.",
+      "need": "writing",
+      "author": "Jannik Reinhard",
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/resume-writer/SKILL.md",
+      "summaryEN": "Writes and rewrites high-impact resumes and CVs that pass ATS screening and win recruiter attention",
+      "originalDescription": "Writes and rewrites high-impact resumes and CVs that pass ATS screening and win recruiter attention — translating raw work history into quantified, outcome-driven bullet points, choosing the right format, and tailoring to a target role. Use this skill when a user asks to \"write my resume\", \"fix my CV\", \"make my resume ATS-friendly\", \"tailor my resume to this job\", \"turn my experience into bullet points\", or wants help with a professional summary, skills section, or resume formatting.",
+      "inputSHA256": "eb249bdece8f791e836a2f7af69aa477d7f6dbc2832c57360efe06f38be3256d",
+      "files": [
+        {
+          "path": "original/resume-writer/SKILL.md",
+          "sha256": "511aab705ffde51245b180f8ee8c7b0eb3e4847bd1e3a01dc0f802257837f0f3",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/resume-writer/SKILL.md"
+        },
+        {
+          "path": "original/resume-writer/examples/before-after.md",
+          "sha256": "e769f9ac9e0ede63f65065cfa426848b03c520fb2eded8b2adac81fd98b15a4c",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/resume-writer/examples/before-after.md"
+        },
+        {
+          "path": "original/resume-writer/references/ats-rules.md",
+          "sha256": "35780eaaa3d4b6debaa7f3d2a9e6ee6fef3e26445ed11e99b471e4e07d7b0266",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/resume-writer/references/ats-rules.md"
+        },
+        {
+          "path": "original/resume-writer/references/bullet-formulas.md",
+          "sha256": "431020be3e74be19e885b78f9902abcc7cf2c62a2de5ff664c1ebda1e651d553",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/resume-writer/references/bullet-formulas.md"
+        },
+        {
+          "path": "original/resume-writer/references/format-by-region.md",
+          "sha256": "4079325beee3f8e78d2de4a6be6dd33dc50b4afcd64e7dcb2655456862508c12",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/resume-writer/references/format-by-region.md"
+        }
+      ]
+    }
+  ]
+}

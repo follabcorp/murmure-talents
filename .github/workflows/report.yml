@@ -1,0 +1,72 @@
+name: Commentaire du Catalogue
+
+on:
+  workflow_run:
+    workflows: ["Validation du Catalogue"]
+    types: [completed]
+
+permissions: {}
+
+jobs:
+  comment:
+    if: github.event.workflow_run.event == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      actions: read
+      pull-requests: write
+    steps:
+      # No checkout, cache or execution of PR code in this privileged workflow.
+      # The artifact is untrusted text. Read one bounded ZIP member without extraction.
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const run = context.payload.workflow_run;
+            if (run.repository.id !== context.payload.repository.id ||
+                run.path !== '.github/workflows/validate.yml') return;
+            const related = await github.rest.repos.listPullRequestsAssociatedWithCommit({
+              ...context.repo, commit_sha: run.head_sha, per_page: 100
+            });
+            const candidates = related.data.filter(pr => pr.state === 'open' &&
+              pr.head.sha === run.head_sha && pr.head.repo?.id === run.head_repository.id &&
+              pr.base.repo.id === context.payload.repository.id);
+            if (candidates.length !== 1) return;
+            const pr = candidates[0];
+            const artifacts = await github.rest.actions.listWorkflowRunArtifacts({
+              ...context.repo, run_id: run.id, per_page: 100
+            });
+            const matches = artifacts.data.artifacts.filter(a => a.name === 'catalogue-pre-review' && !a.expired);
+            if (matches.length !== 1 || matches[0].size_in_bytes > 262144) {
+              core.setFailed('Rapport de pré-relecture absent ou trop grand.'); return;
+            }
+            const archive = await github.rest.actions.downloadArtifact({
+              ...context.repo, artifact_id: matches[0].id, archive_format: 'zip'
+            });
+            const bytes = Buffer.from(archive.data);
+            if (bytes.length > 262144) throw new Error('Archive trop grande');
+            const program = `
+            import io, sys, zipfile
+            with zipfile.ZipFile(io.BytesIO(sys.stdin.buffer.read(262145))) as archive:
+                entries = archive.infolist()
+                if len(entries) != 1 or entries[0].filename != 'pre-review.txt' or entries[0].file_size > 131072:
+                    raise ValueError('Archive inattendue')
+                with archive.open(entries[0]) as member:
+                    data = member.read(131073)
+                if len(data) > 131072:
+                    raise ValueError('Rapport trop grand')
+                text = data.decode('utf-8', errors='replace')
+                text = ''.join(c for c in text if c in '\\n\\t' or (ord(c) >= 32 and ord(c) != 127))
+                print(text.replace('@', '＠').replace('\x60', "'"))
+            `;
+            const report = require('child_process').execFileSync('python3', ['-I', '-c', program], {
+              input: bytes, maxBuffer: 524288, timeout: 10000, encoding: 'utf8'
+            });
+            const body = 'Pré-relecture automatique du Catalogue — données non fiables de la PR.\n' +
+              'Commit : ' + run.head_sha + '\nRésultat CI : ' + run.conclusion +
+              '\nUne relecture humaine reste obligatoire.\n\n' +
+              String.fromCharCode(96).repeat(3) + 'text\n' + report.slice(0, 48000) + '\n' +
+              String.fromCharCode(96).repeat(3);
+            // Recheck the head before publishing a report for this exact commit.
+            const current = await github.rest.pulls.get({...context.repo, pull_number: pr.number});
+            if (current.data.head.sha !== run.head_sha) return;
+            await github.rest.issues.createComment({...context.repo, issue_number: pr.number, body});

@@ -1,0 +1,14 @@
+{
+  "items" : [
+    {
+      "reason" : "rediger-une-lettre-de-motivation : TODO-fr à traduire ; besoins, capacités, dépendances et droits à relire.",
+      "sourcePath" : "SKILL.md",
+      "status" : "accepted",
+      "talentID" : "rediger-une-lettre-de-motivation"
+    }
+  ],
+  "review" : "Français TODO-fr, besoins, capacités, dépendances, provenance et droits à relire.",
+  "talentIDs" : [
+    "rediger-une-lettre-de-motivation"
+  ]
+}

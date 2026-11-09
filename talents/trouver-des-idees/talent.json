@@ -1,0 +1,29 @@
+{
+  "id": "trouver-des-idees",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Trouver des idées",
+      "summary": "Débloque ton imagination avec une méthode adaptée pour trouver des idées concrètes."
+    },
+    "en": {
+      "name": "Find fresh ideas",
+      "summary": "Unlocks your imagination with a fitting method to find concrete, original ideas."
+    }
+  },
+  "needs": ["writing", "organizing"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "SHL0MS",
+    "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/creative/creative-ideation/SKILL.md"
+  }
+}

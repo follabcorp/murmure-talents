@@ -1,0 +1,134 @@
+name: Publication du Catalogue
+
+# Jamais pull_request : ce workflow tient la clé de publication, il ne tourne que sur du code déjà fusionné dans main.
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Jamais deux publications en parallèle, et jamais une publication interrompue par la suivante.
+concurrency:
+  group: catalogue-publication
+  cancel-in-progress: false
+
+env:
+  # Commit of the tools repository tag v20261107-7ecfdff (pinned by commit: a tag is mutable).
+  TOOLS_REV: fadf281e4549ed333cc2ef8f2aafa31e6fb5191f
+  BASE_URL: https://talents.murmureai.tech/v1/
+  ROOT_PUBLIC_KEY: OARTzC2g9cWFq/1Gy1FGrnr3HN4Y1nkYouNOaplWF8U=
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    # L'Environment porte le secret TALENTS_PUBLICATION_KEY ; ce job n'a aucun droit d'écriture sur le dépôt ni sur Pages.
+    environment: publication
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Installer l'outil du Catalogue
+        run: cargo install --locked --git https://github.com/follabcorp/murmure-talents-tools --rev "$TOOLS_REV" murmure-talents
+      - name: Écrire la clé de publication
+        env:
+          PUBLICATION_KEY_B64: ${{ secrets.TALENTS_PUBLICATION_KEY }}
+        run: |
+          set -eu
+          umask 077
+          key="$RUNNER_TEMP/publication.key"
+          : > "$key"
+          printf '%s' "$PUBLICATION_KEY_B64" | base64 -d > "$key" 2>/dev/null || true
+          size=$(wc -c < "$key" | tr -d ' ')
+          if [ "$size" != 32 ]; then
+            rm -f "$key"
+            echo "ERREUR : la clé de publication décodée doit faire 32 octets (secret TALENTS_PUBLICATION_KEY absent ou invalide)." >&2
+            exit 1
+          fi
+          echo "PUBLICATION_KEY_FILE=$key" >> "$GITHUB_ENV"
+      # --sequence auto vaut l'horodatage UTC en secondes : chaque publication dépasse la précédente sans état dans le dépôt.
+      - name: Valider, indexer, signer et vérifier la chaîne de confiance
+        run: |
+          # --output doit être un dossier neuf dont le parent existe.
+          mkdir -p "$RUNNER_TEMP/site"
+          murmure-talents publish . \
+            --output "$RUNNER_TEMP/site/v1" \
+            --base-url "$BASE_URL" \
+            --sequence auto \
+            --key "$PUBLICATION_KEY_FILE" \
+            --delegation delegation \
+            --root-public-key "$ROOT_PUBLIC_KEY"
+      - name: Supprimer la clé de publication
+        if: always()
+        run: rm -f "$RUNNER_TEMP/publication.key"
+      - name: Contrôler l'arborescence du site
+        run: |
+          for file in index.json index.json.sig delegation.json delegation.json.sig; do
+            test -s "$RUNNER_TEMP/site/v1/$file"
+          done
+          find "$RUNNER_TEMP/site" -type f | sort
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ runner.temp }}/site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  # Seul job avec le droit d'ouvrir une issue ; il ne voit pas la clé de publication.
+  delegation-watch:
+    if: github.event_name != 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const delegation = JSON.parse(fs.readFileSync('delegation/delegation.json', 'utf8'));
+            const notAfter = new Date(delegation.notAfter);
+            if (Number.isNaN(notAfter.getTime())) {
+              core.setFailed('notAfter illisible dans delegation/delegation.json.');
+              return;
+            }
+            const days = Math.floor((notAfter.getTime() - Date.now()) / 86400000);
+            core.info(`La délégation expire le ${delegation.notAfter} (${days} jours).`);
+            if (days >= 30) return;
+            const title = 'Renouveler la délégation de publication du Catalogue';
+            const open = await github.paginate(github.rest.issues.listForRepo, {
+              ...context.repo, state: 'open', per_page: 100
+            });
+            if (open.some(issue => !issue.pull_request && issue.title === title)) {
+              core.info('Une issue ouverte existe déjà : aucun doublon.');
+              return;
+            }
+            const body = `La délégation de publication expire le ${delegation.notAfter} ` +
+              `(${days < 0 ? 'déjà expirée' : 'dans ' + days + ' jours'}).\n\n` +
+              'Passé cette date, la publication échoue et le Catalogue servi n\'est plus accepté par les apps. ' +
+              'Un Mainteneur doit signer une nouvelle délégation hors ligne avec la clé racine ' +
+              '(`murmure-talents delegate`), puis remplacer `delegation/delegation.json` et ' +
+              '`delegation/delegation.json.sig` par une PR.';
+            await github.rest.issues.create({ ...context.repo, title, body });

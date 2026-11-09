@@ -1,0 +1,29 @@
+{
+  "id": "choisir-un-cadeau",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Choisir un cadeau",
+      "summary": "Trouve des idées de cadeaux adaptées à la personne, à l’occasion et au budget."
+    },
+    "en": {
+      "name": "gift-advisor",
+      "summary": "Recommends thoughtful, personalized gift ideas for any recipient and occasion"
+    }
+  },
+  "needs": ["organizing"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "JayRHa",
+    "url": "https://github.com/JayRHa/agent-skills"
+  }
+}

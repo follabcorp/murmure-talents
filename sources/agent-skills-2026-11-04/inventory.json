@@ -1,0 +1,617 @@
+{
+  "repository": "https://github.com/JayRHa/agent-skills",
+  "commit": "f9a456bf34c297bd23fb234f410ec9b239ebed14",
+  "licenseSHA256": "630940e0b757ab435231211c5e503dc40919a8c3f78ce16f45374123efadb91d",
+  "items": [
+    {
+      "source": "personal-budget-planner",
+      "id": "budget-du-foyer",
+      "nameFR": "Budget du foyer",
+      "summaryFR": "Construis un budget mensuel réaliste, avec épargne et remboursement de dettes.",
+      "need": [
+        "organizing",
+        "paperwork"
+      ],
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/personal-budget-planner/SKILL.md",
+      "files": [
+        {
+          "path": "original/personal-budget-planner/SKILL.md",
+          "sha256": "f24b0ed61b93b27099764d914d77d234be10d4c2e5340c71631d9c3173164305",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/personal-budget-planner/SKILL.md"
+        },
+        {
+          "path": "original/personal-budget-planner/examples/monthly-budget.md",
+          "sha256": "3c7809214d5d0f814afca2005f5a8448a173c4f76d7ea762284bab51155cfcab",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/personal-budget-planner/examples/monthly-budget.md"
+        },
+        {
+          "path": "original/personal-budget-planner/references/debt-payoff.md",
+          "sha256": "eb9da4382357bad1eab3beff9770af6748e5f8e899ee129ea1d4bf5a6e9cf581",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/personal-budget-planner/references/debt-payoff.md"
+        },
+        {
+          "path": "original/personal-budget-planner/references/methods.md",
+          "sha256": "da8c6dcf626f28b5e25a3b9a314dfc70299cea081f642d0307c023f8ab6452b3",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/personal-budget-planner/references/methods.md"
+        }
+      ],
+      "scriptsNotCopied": []
+    },
+    {
+      "source": "workout-planner",
+      "id": "programme-de-sport",
+      "nameFR": "Programme de sport",
+      "summaryFR": "Compose une routine d’exercices douce et progressive, adaptée à ton niveau et à ton temps.",
+      "need": [
+        "health",
+        "organizing"
+      ],
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/workout-planner/SKILL.md",
+      "files": [
+        {
+          "path": "original/workout-planner/SKILL.md",
+          "sha256": "534f215aa214b1377774fadfd3ab58fab6e52ee4f0d4e1cb1507b2067a982b3c",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/workout-planner/SKILL.md"
+        },
+        {
+          "path": "original/workout-planner/examples/ppl-4day.md",
+          "sha256": "0c8ed5ec6356ff1a194ac01d7ecf38600605a79a8f8e5f24dc1f1171ab6ab0e8",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/workout-planner/examples/ppl-4day.md"
+        },
+        {
+          "path": "original/workout-planner/references/progression-and-recovery.md",
+          "sha256": "6245428d060b2555944e4eb00b580ebf17575e611fffac6d18bd447e83c8617c",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/workout-planner/references/progression-and-recovery.md"
+        },
+        {
+          "path": "original/workout-planner/references/splits.md",
+          "sha256": "42289ddcf542b7649def4e3c05853077cb8e7c423b7dd3e6225685ee5ac3d16f",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/workout-planner/references/splits.md"
+        }
+      ],
+      "scriptsNotCopied": []
+    },
+    {
+      "source": "meal-plan-builder",
+      "id": "repas-de-la-semaine",
+      "nameFR": "Repas de la semaine",
+      "summaryFR": "Prépare le menu de la semaine et la liste de courses qui va avec.",
+      "need": [
+        "cooking",
+        "organizing"
+      ],
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/meal-plan-builder/SKILL.md",
+      "files": [
+        {
+          "path": "original/meal-plan-builder/SKILL.md",
+          "sha256": "77962257a39647f06ca433c3f66ef0c9de02b002bb5f62863b53ba7dff11542c",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/meal-plan-builder/SKILL.md"
+        },
+        {
+          "path": "original/meal-plan-builder/examples/sample-week.md",
+          "sha256": "7368d9a9192239daa0a90f11f7f82996a59722eb5d6a71666a36b6bea002b137",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/meal-plan-builder/examples/sample-week.md"
+        },
+        {
+          "path": "original/meal-plan-builder/references/grocery-aisles.md",
+          "sha256": "85db7d502b1b77729d479bc7093d8602eec83329aaddadf8a8346a250e7c3eb6",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/meal-plan-builder/references/grocery-aisles.md"
+        },
+        {
+          "path": "original/meal-plan-builder/references/macro-targets.md",
+          "sha256": "b1d58417a2d12523231828ab7d6c4e5e0f1d421bb5df2861f3377b86d7d36cfe",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/meal-plan-builder/references/macro-targets.md"
+        },
+        {
+          "path": "original/meal-plan-builder/references/planning-heuristics.md",
+          "sha256": "beab55142242b7a3027c5c4fe5685282a74001c060bcc3668bf4fe534686126e",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/meal-plan-builder/references/planning-heuristics.md"
+        },
+        {
+          "path": "original/meal-plan-builder/templates/meal-plan.md",
+          "sha256": "85af92d6c7a4628627e1394c4b0162cfbf22b8b1e0ca159c8b0f4f6001fa1cb3",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/meal-plan-builder/templates/meal-plan.md"
+        }
+      ],
+      "scriptsNotCopied": [
+        {
+          "path": "meal-plan-builder/scripts/plan_calc.py",
+          "sha256": "a55bc8525454092a8a024522ece8dd60516c8a45b0e55879fd35bc773c52da31"
+        }
+      ]
+    },
+    {
+      "source": "flashcard-generator",
+      "id": "fiches-de-revision",
+      "nameFR": "Fiches de révision",
+      "summaryFR": "Transforme un cours ou des notes en fiches questions-réponses efficaces pour mémoriser.",
+      "need": [
+        "learning"
+      ],
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/flashcard-generator/SKILL.md",
+      "files": [
+        {
+          "path": "original/flashcard-generator/SKILL.md",
+          "sha256": "a2bdfc8203ca9c827506ba991bb5f083e351cf12dadc3670a1c05d6d873448fe",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/flashcard-generator/SKILL.md"
+        },
+        {
+          "path": "original/flashcard-generator/examples/photosynthesis-cards.md",
+          "sha256": "bc6609c0758bb1982ecad4bcfdfb47420e1463ca9296327eb63348331cc8d680",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/flashcard-generator/examples/photosynthesis-cards.md"
+        },
+        {
+          "path": "original/flashcard-generator/references/card-principles.md",
+          "sha256": "fb0c9290ca70c9cdd13c99d4df39c755fa2cfb39eb124384b0279c07f368e549",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/flashcard-generator/references/card-principles.md"
+        }
+      ],
+      "scriptsNotCopied": [
+        {
+          "path": "flashcard-generator/scripts/to_anki_csv.py",
+          "sha256": "6bdb5f23eb10fd0ece7dc29249f6eb5c7f595d339403ac8c8475d0c65cda1138"
+        }
+      ]
+    },
+    {
+      "source": "book-summarizer",
+      "id": "resumer-un-livre",
+      "nameFR": "Résumer un livre",
+      "summaryFR": "Résume un livre au niveau de détail voulu, fidèle à l’auteur et sans rien inventer.",
+      "need": [
+        "writing",
+        "learning"
+      ],
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/book-summarizer/SKILL.md",
+      "files": [
+        {
+          "path": "original/book-summarizer/SKILL.md",
+          "sha256": "3a32f63042069f7ccae6f68d7e8f52a67b60fdeb68ced86f68e54821d9318e09",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/book-summarizer/SKILL.md"
+        },
+        {
+          "path": "original/book-summarizer/examples/atomic-habits.md",
+          "sha256": "1ea91c54ab9f8591f2764f7d3ce6160560cb3c0daa04fc7d83c1a826ef6924c1",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/book-summarizer/examples/atomic-habits.md"
+        },
+        {
+          "path": "original/book-summarizer/references/summary-structures.md",
+          "sha256": "691406fd277f7e88346e85ef73cf863234f0bb29ce0e69d24ec02f060fcca846",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/book-summarizer/references/summary-structures.md"
+        }
+      ],
+      "scriptsNotCopied": []
+    },
+    {
+      "source": "blog-post-writer",
+      "id": "ecrire-un-article",
+      "nameFR": "Écrire un article",
+      "summaryFR": "Écris un article ou un billet de blog clair, avec une accroche et un plan.",
+      "need": [
+        "writing"
+      ],
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/blog-post-writer/SKILL.md",
+      "files": [
+        {
+          "path": "original/blog-post-writer/SKILL.md",
+          "sha256": "9af94283d96aaa95fe51fb25742656a350fefa1404d0f6fe642c854369fc9641",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/blog-post-writer/SKILL.md"
+        },
+        {
+          "path": "original/blog-post-writer/examples/sample-post.md",
+          "sha256": "6537d5cefc8983b1f3cd23fd26a5ff6b8c6c3aabb82624b081f216b53872c8f0",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/blog-post-writer/examples/sample-post.md"
+        },
+        {
+          "path": "original/blog-post-writer/references/editing-checklist.md",
+          "sha256": "8299b2415382dfc913b33e23ab29206512737c77344528fa10bd48edf1bd22ba",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/blog-post-writer/references/editing-checklist.md"
+        },
+        {
+          "path": "original/blog-post-writer/references/headlines.md",
+          "sha256": "64cf758f73c86a7ced21817c7fb0dfe95a34f72c10a649ef9b713f4fb109d862",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/blog-post-writer/references/headlines.md"
+        },
+        {
+          "path": "original/blog-post-writer/references/hooks.md",
+          "sha256": "991114c1038ce9299b659a8e2a650775fb6c998ed9b9779613a11233b870deef",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/blog-post-writer/references/hooks.md"
+        },
+        {
+          "path": "original/blog-post-writer/references/post-types.md",
+          "sha256": "d0e28181845d091b1b39474a9d4dadf0893ee47eaabec92c6e8c054bf663cb9f",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/blog-post-writer/references/post-types.md"
+        },
+        {
+          "path": "original/blog-post-writer/templates/outline.md",
+          "sha256": "ea643b75c663bd8cd2459e999dec4eff16e81420f1f2673d6cb8cf4437368dee",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/blog-post-writer/templates/outline.md"
+        }
+      ],
+      "scriptsNotCopied": [
+        {
+          "path": "blog-post-writer/scripts/readability.py",
+          "sha256": "a527cdf225a631d2507c8afa19fa12d863d4eb77518895990149878822a3d63c"
+        }
+      ]
+    },
+    {
+      "source": "salary-negotiator",
+      "id": "negocier-son-salaire",
+      "nameFR": "Négocier son salaire",
+      "summaryFR": "Prépare une négociation de salaire ou d’augmentation avec des arguments et des phrases toutes prêtes.",
+      "need": [
+        "organizing",
+        "writing"
+      ],
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/salary-negotiator/SKILL.md",
+      "files": [
+        {
+          "path": "original/salary-negotiator/SKILL.md",
+          "sha256": "06dc075c2afe6ce05b30d467ee7f01e1fe85b80993a67d948346c2e9fd0b68d9",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/salary-negotiator/SKILL.md"
+        },
+        {
+          "path": "original/salary-negotiator/examples/counter-offer.md",
+          "sha256": "bb3a2a247185dfae323f5ec07b0245407a77d54d620c6ad8888546851b572fc8",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/salary-negotiator/examples/counter-offer.md"
+        },
+        {
+          "path": "original/salary-negotiator/references/levers.md",
+          "sha256": "a9c042459212ce3059ea2973a7224fe7aa6f036f03e6701e3c2083b82f333c19",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/salary-negotiator/references/levers.md"
+        },
+        {
+          "path": "original/salary-negotiator/references/market-research.md",
+          "sha256": "5e5d6aa4ad2b529dcc4ca74015649656b7ec76bb7a94337c01cba41ac15359ff",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/salary-negotiator/references/market-research.md"
+        },
+        {
+          "path": "original/salary-negotiator/references/scripts.md",
+          "sha256": "173ff01ef38efdbc9b9fe627c7a88ebf34e2e1ff63843d0bb9cf3dd46e3f23cc",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/salary-negotiator/references/scripts.md"
+        }
+      ],
+      "scriptsNotCopied": []
+    },
+    {
+      "source": "proofreader",
+      "id": "relire-un-texte",
+      "nameFR": "Relire un texte",
+      "summaryFR": "Corrige orthographe, grammaire et clarté de ton texte sans changer ce que tu veux dire.",
+      "need": [
+        "writing"
+      ],
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/proofreader/SKILL.md",
+      "files": [
+        {
+          "path": "original/proofreader/SKILL.md",
+          "sha256": "e5b90c86b773faf9b887c8a3e61571f6f57d24e3735f44f5d05cc2b4b96c42c9",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/proofreader/SKILL.md"
+        },
+        {
+          "path": "original/proofreader/examples/sample-edit.md",
+          "sha256": "f5a87419b20797ebab76617a06af82c949e782e41b118fe131fca297cd28fc0c",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/proofreader/examples/sample-edit.md"
+        },
+        {
+          "path": "original/proofreader/references/concision-cheatsheet.md",
+          "sha256": "cfea0fb6a9acc20b28a34dc92e006c6143156b6137013c558bd4465ec1a5bc97",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/proofreader/references/concision-cheatsheet.md"
+        },
+        {
+          "path": "original/proofreader/references/grammar-rules.md",
+          "sha256": "10e8ac203d30fdaffdb2b09523530fba877f8267d68164f21805bab147b446ac",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/proofreader/references/grammar-rules.md"
+        },
+        {
+          "path": "original/proofreader/references/style-consistency.md",
+          "sha256": "18833592c883dc093aad710e4dd7d6bd660ecf46d97d0a6f2c743d6f212c0d77",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/proofreader/references/style-consistency.md"
+        },
+        {
+          "path": "original/proofreader/templates/edit-report.md",
+          "sha256": "8342be99a1e7e5e3a6e42dd2acff75d4ac1a7c726659ad44d5a58f22f924a6ce",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/proofreader/templates/edit-report.md"
+        }
+      ],
+      "scriptsNotCopied": [
+        {
+          "path": "proofreader/scripts/proof_check.py",
+          "sha256": "c90263351c015535fcf53ab9b6715f1696717a6bb1c4a6a916b0362b29572f20"
+        }
+      ]
+    },
+    {
+      "source": "email-composer",
+      "id": "rediger-un-email",
+      "nameFR": "Rédiger un e-mail",
+      "summaryFR": "Rédige un e-mail clair, au bon ton, avec une demande précise, prêt à envoyer par toi.",
+      "need": [
+        "mail",
+        "writing"
+      ],
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/email-composer/SKILL.md",
+      "files": [
+        {
+          "path": "original/email-composer/SKILL.md",
+          "sha256": "3a8dac4231a9ac2a788805d71240f075cb10724ba935f7ccd0edaf37cbb4b448",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/email-composer/SKILL.md"
+        },
+        {
+          "path": "original/email-composer/examples/sample-emails.md",
+          "sha256": "50d319b3a239bcefff97c67d579345696ebf937b3d3e39f3123d5a091505028a",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/email-composer/examples/sample-emails.md"
+        },
+        {
+          "path": "original/email-composer/references/checklist.md",
+          "sha256": "9f06fd28ac1880a0e2c8a51f93bc5d9d67bd87285e5b1a63fad3aef19a876e08",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/email-composer/references/checklist.md"
+        },
+        {
+          "path": "original/email-composer/references/email-patterns.md",
+          "sha256": "866f2b7122995a4fea9039f1d00964f5ac5723e49a460e3253a9a01e193f6767",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/email-composer/references/email-patterns.md"
+        },
+        {
+          "path": "original/email-composer/references/tone-guide.md",
+          "sha256": "2a0b9609f16040edd198dd34b833c539f95f5483291733425e5a60867354fe2b",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/email-composer/references/tone-guide.md"
+        },
+        {
+          "path": "original/email-composer/templates/email-template.md",
+          "sha256": "27545e58c2c1ec937ad3dc4c4f6b1f7a1668f2a810248067395c01dd5724ab05",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/email-composer/templates/email-template.md"
+        }
+      ],
+      "scriptsNotCopied": [
+        {
+          "path": "email-composer/scripts/email_lint.py",
+          "sha256": "48eef001667ffe9cca02407752ee31fdf29e2c02fbc54bbc9ee5ae7640e610ab"
+        }
+      ]
+    },
+    {
+      "source": "decision-matrix",
+      "id": "comparer-pour-choisir",
+      "nameFR": "Comparer pour choisir",
+      "summaryFR": "Compare plusieurs options avec des critères pondérés pour décider en connaissance de cause.",
+      "need": [
+        "organizing"
+      ],
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/decision-matrix/SKILL.md",
+      "files": [
+        {
+          "path": "original/decision-matrix/SKILL.md",
+          "sha256": "b3b5548de93af96e674e5b35c49a83b6996f13c14cc33d495f76addf6c99f4fb",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/decision-matrix/SKILL.md"
+        },
+        {
+          "path": "original/decision-matrix/examples/tool-selection.md",
+          "sha256": "d9e2a4b771fa5d956af459ebe342435859f3fc450b8f7d6caf78747597380b50",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/decision-matrix/examples/tool-selection.md"
+        },
+        {
+          "path": "original/decision-matrix/references/scoring-guide.md",
+          "sha256": "26ad9ed6e9c3c66fa5a7b8af9c304563bc449fad960118481576bd799f6a7e57",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/decision-matrix/references/scoring-guide.md"
+        },
+        {
+          "path": "original/decision-matrix/templates/report.md",
+          "sha256": "f7df1b516ec2d0c99f74c7d7e8dcd1b40d41f7404d8513b03db4a7bbae0f4a14",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/decision-matrix/templates/report.md"
+        }
+      ],
+      "scriptsNotCopied": [
+        {
+          "path": "decision-matrix/scripts/decision_matrix.py",
+          "sha256": "3ae643131325e292c29026945727e0b9070a7fe1ce92b9fb8886cee890d8b36f"
+        }
+      ]
+    },
+    {
+      "source": "meeting-summarizer",
+      "id": "compte-rendu-de-reunion",
+      "nameFR": "Compte rendu de réunion",
+      "summaryFR": "Transforme des notes de réunion en décisions et actions claires, avec un responsable pour chacune.",
+      "need": [
+        "writing",
+        "organizing"
+      ],
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/meeting-summarizer/SKILL.md",
+      "files": [
+        {
+          "path": "original/meeting-summarizer/SKILL.md",
+          "sha256": "89d80fdee15bf61e1f247f53782e18f10dc50e5052dda4863f3beac168b3468d",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/meeting-summarizer/SKILL.md"
+        },
+        {
+          "path": "original/meeting-summarizer/examples/standup-recap.md",
+          "sha256": "974150140dc2724e6abcc6470887ea3303622653bc1f233ffd057ddffe544d51",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/meeting-summarizer/examples/standup-recap.md"
+        },
+        {
+          "path": "original/meeting-summarizer/references/checklist.md",
+          "sha256": "2160d37e7bcc9ff2cdcac6c3204c93232944e030f5dac3ce872eca2c7e76b127",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/meeting-summarizer/references/checklist.md"
+        },
+        {
+          "path": "original/meeting-summarizer/references/owner-resolution.md",
+          "sha256": "58ca5f52809dc2e0538bd6e494b5a99252497397e32c8c1098a1e5bddb8c7d47",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/meeting-summarizer/references/owner-resolution.md"
+        },
+        {
+          "path": "original/meeting-summarizer/templates/summary.md",
+          "sha256": "405ccce587e63ab7083b7914bf693534b1fc5b63371a3ebeb121066b54722371",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/meeting-summarizer/templates/summary.md"
+        }
+      ],
+      "scriptsNotCopied": [
+        {
+          "path": "meeting-summarizer/scripts/extract_actions.py",
+          "sha256": "69958f8ccafcd4c112d154835235dee3601940e730c8e4f0a764f414493f003f"
+        }
+      ]
+    },
+    {
+      "source": "project-planner",
+      "id": "planifier-un-projet",
+      "nameFR": "Planifier un projet",
+      "summaryFR": "Découpe un projet (déménagement, travaux, événement) en étapes, avec calendrier et risques.",
+      "need": [
+        "organizing",
+        "home"
+      ],
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/project-planner/SKILL.md",
+      "files": [
+        {
+          "path": "original/project-planner/SKILL.md",
+          "sha256": "4f80786eb67a5db4dc3d9fe13fa086daca4ce1b22a13c1693310e9d35415d553",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/project-planner/SKILL.md"
+        },
+        {
+          "path": "original/project-planner/examples/website-launch.md",
+          "sha256": "581364516b5d9e977561d54cb3438e8970d47ca8b74865aa7d28e4d5e95ba04b",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/project-planner/examples/website-launch.md"
+        },
+        {
+          "path": "original/project-planner/references/clarifying-questions.md",
+          "sha256": "218863ee1601949af848ec8b6160992b2e5cc001ce40cf8eaed274d71a052d59",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/project-planner/references/clarifying-questions.md"
+        },
+        {
+          "path": "original/project-planner/references/dependencies-and-critical-path.md",
+          "sha256": "c0d4535d2ee70fadc6cf5744ac15d4548e6f12c31cfc7d5741a7970dac465324",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/project-planner/references/dependencies-and-critical-path.md"
+        },
+        {
+          "path": "original/project-planner/references/estimation.md",
+          "sha256": "b05d516082919f6376634d717316a3c0aff8377d66d8def6527ca54f629dc26a",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/project-planner/references/estimation.md"
+        },
+        {
+          "path": "original/project-planner/references/wbs-method.md",
+          "sha256": "bf591f596c0e7ba355d82546c0c72d1fd07d4cb270e33c0e6b8885813c7e2101",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/project-planner/references/wbs-method.md"
+        },
+        {
+          "path": "original/project-planner/templates/project-plan.md",
+          "sha256": "4d856fd579de3dad3847cac614ff23a510202e16a229947177cb03567da35bea",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/project-planner/templates/project-plan.md"
+        }
+      ],
+      "scriptsNotCopied": [
+        {
+          "path": "project-planner/scripts/critical_path.py",
+          "sha256": "b13583fc3509778e6fa9988bf1ab706126d5655fe9195c558ba7589b076355b0"
+        }
+      ]
+    },
+    {
+      "source": "swot-analyzer",
+      "id": "forces-et-faiblesses",
+      "nameFR": "Faire le point avant de décider",
+      "summaryFR": "Fais le point sur tes atouts, tes freins, les opportunités et les risques avant un choix important.",
+      "need": [
+        "organizing"
+      ],
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/swot-analyzer/SKILL.md",
+      "files": [
+        {
+          "path": "original/swot-analyzer/SKILL.md",
+          "sha256": "ed79b0361592cc730e0206ff1820d1c9db8a3abebfe7768e8f6f13ac65a0b4f5",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/swot-analyzer/SKILL.md"
+        },
+        {
+          "path": "original/swot-analyzer/examples/saas-startup.md",
+          "sha256": "a6175a6ed475e0f7b3afdc4a4c7470d6de973487abaeaaf77cc4c09f344187d6",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/swot-analyzer/examples/saas-startup.md"
+        },
+        {
+          "path": "original/swot-analyzer/references/checklist.md",
+          "sha256": "4ddef454ca929967cf3e7747dc245534f36f177934d8b2ee0ddbce6514751d2b",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/swot-analyzer/references/checklist.md"
+        },
+        {
+          "path": "original/swot-analyzer/references/prompts.md",
+          "sha256": "911b0322ed6ffbf27d25d6bb8df570a8a2277eab3f35ef723e166df7cfd608f1",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/swot-analyzer/references/prompts.md"
+        },
+        {
+          "path": "original/swot-analyzer/references/tows-matrix.md",
+          "sha256": "8e2de28bf15a4644e12c5b7323d2ab05f24bfdef6b113f39ac832603bf92f9b6",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/swot-analyzer/references/tows-matrix.md"
+        },
+        {
+          "path": "original/swot-analyzer/templates/swot-report.md",
+          "sha256": "fb418c1896ddf8945be6cf8f84b68f083cf69939b0278957acf047a65d552832",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/swot-analyzer/templates/swot-report.md"
+        }
+      ],
+      "scriptsNotCopied": [
+        {
+          "path": "swot-analyzer/scripts/swot_score.py",
+          "sha256": "6aea7c92b3f31d54c44227847381d5b784304bd95f87563cd63b3d1211985b15"
+        }
+      ]
+    },
+    {
+      "source": "presentation-builder",
+      "id": "construire-un-diaporama",
+      "nameFR": "Construire un diaporama",
+      "summaryFR": "Prépare le plan d’un diaporama : message central, histoire, une idée par diapositive.",
+      "need": [
+        "writing",
+        "organizing"
+      ],
+      "license": "MIT",
+      "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/presentation-builder/SKILL.md",
+      "files": [
+        {
+          "path": "original/presentation-builder/SKILL.md",
+          "sha256": "2f0f86d770672aa5400b13088075b4e6a0ec524d862d438e031df32037d1e2fd",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/presentation-builder/SKILL.md"
+        },
+        {
+          "path": "original/presentation-builder/examples/saas-pitch-deck.md",
+          "sha256": "99ee153535d971488fde611ecb6c99b2014d2075fc4df7b42c89883da7cd5ad8",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/presentation-builder/examples/saas-pitch-deck.md"
+        },
+        {
+          "path": "original/presentation-builder/references/deck-review-checklist.md",
+          "sha256": "cbe364551233a7b8e257c2a93b9f7e62867639634a09e17298be103648eb2f43",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/presentation-builder/references/deck-review-checklist.md"
+        },
+        {
+          "path": "original/presentation-builder/references/storytelling-frameworks.md",
+          "sha256": "91aa31a0271312313bbf650571e16b0b834aa9bdda80248d32cccaa60cd5fbe7",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/presentation-builder/references/storytelling-frameworks.md"
+        },
+        {
+          "path": "original/presentation-builder/templates/slide-outline.md",
+          "sha256": "8fd051f97a30ed290b58e6b53753586b3906c160db76df80446916fb740598c4",
+          "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/presentation-builder/templates/slide-outline.md"
+        }
+      ],
+      "scriptsNotCopied": [
+        {
+          "path": "presentation-builder/scripts/pacing.py",
+          "sha256": "8206bd495301c86bb90b9e7b087c3daa8020ee733caafb2fbeb4ad9f6d34a98a"
+        }
+      ]
+    }
+  ]
+}

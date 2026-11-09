@@ -1,0 +1,31 @@
+{
+  "id": "trier-mes-mails",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Trier mes mails",
+      "summary": "Classe les mails non lus de la réception et propose un tri avant d'agir."
+    },
+    "en": {
+      "name": "Sort my mail",
+      "summary": "Sorts the unread mail in the inbox and proposes a sort before acting."
+    }
+  },
+  "needs": [
+    "mail"
+  ],
+  "capabilities": [
+    "read-mail",
+    "organize-mail"
+  ],
+  "requires": [
+    "mes-mails"
+  ],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT"
+}

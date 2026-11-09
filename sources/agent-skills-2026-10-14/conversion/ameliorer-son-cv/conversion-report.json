@@ -1,0 +1,14 @@
+{
+  "items" : [
+    {
+      "reason" : "ameliorer-son-cv : TODO-fr à traduire ; besoins, capacités, dépendances et droits à relire.",
+      "sourcePath" : "SKILL.md",
+      "status" : "accepted",
+      "talentID" : "ameliorer-son-cv"
+    }
+  ],
+  "review" : "Français TODO-fr, besoins, capacités, dépendances, provenance et droits à relire.",
+  "talentIDs" : [
+    "ameliorer-son-cv"
+  ]
+}

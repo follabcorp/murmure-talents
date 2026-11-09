@@ -1,0 +1,29 @@
+{
+  "id": "budget-du-foyer",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Budget du foyer",
+      "summary": "Construis un budget mensuel réaliste, avec épargne et remboursement de dettes."
+    },
+    "en": {
+      "name": "Household budget",
+      "summary": "Builds a realistic monthly budget from income and expenses, with savings and debt repayment."
+    }
+  },
+  "needs": ["organizing", "paperwork"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "JayRHa",
+    "url": "https://github.com/JayRHa/agent-skills/blob/f9a456bf34c297bd23fb234f410ec9b239ebed14/personal-budget-planner/SKILL.md"
+  }
+}

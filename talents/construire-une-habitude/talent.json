@@ -1,0 +1,29 @@
+{
+  "id": "construire-une-habitude",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Construire une habitude",
+      "summary": "Transforme une intention en petit geste régulier avec un déclencheur, un suivi et un plan de reprise."
+    },
+    "en": {
+      "name": "habit-builder",
+      "summary": "Designs a realistic, evidence-based plan to build a new habit or break a bad one"
+    }
+  },
+  "needs": ["organizing"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "JayRHa",
+    "url": "https://github.com/JayRHa/agent-skills"
+  }
+}

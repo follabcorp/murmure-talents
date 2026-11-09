@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "reason": "proposition à relire (français, besoins, capacités)",
+      "sourcePath": "SKILL.md",
+      "status": "accepted",
+      "talentId": "comparer-pour-choisir"
+    }
+  ],
+  "review": "Propositions à relire : français, besoins, capacités et droits. TODO-fr bloque validate.",
+  "talentIds": [
+    "comparer-pour-choisir"
+  ]
+}

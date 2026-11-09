@@ -1,0 +1,29 @@
+{
+  "id": "decider-en-trois-options",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Décider entre trois options",
+      "summary": "Présente le problème, trois pistes avec leurs avantages et limites, une recommandation et un plan."
+    },
+    "en": {
+      "name": "Decide between three options",
+      "summary": "Frames the problem, compares three different options, recommends one and gives a plan."
+    }
+  },
+  "needs": ["organizing"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "Willard Moore",
+    "url": "https://github.com/NousResearch/hermes-agent/blob/bf0203a794a07aac3ff764972ab9087baa4e4f4e/optional-skills/communication/one-three-one-rule/SKILL.md"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "planifier-un-voyage",
+  "version": "1.1.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Planifier un voyage",
+      "summary": "Organise un itinéraire et une liste de préparatifs."
+    },
+    "en": {
+      "name": "Plan a trip",
+      "summary": "Organize an itinerary and a preparation checklist."
+    }
+  },
+  "needs": [
+    "travel",
+    "organizing"
+  ],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT"
+}

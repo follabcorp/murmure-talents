@@ -1,0 +1,29 @@
+{
+  "id": "ameliorer-son-cv",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Améliorer son CV",
+      "summary": "Adapte ton CV à un poste en mettant en avant tes réalisations sans inventer d’expérience ni de chiffres."
+    },
+    "en": {
+      "name": "resume-writer",
+      "summary": "Writes and rewrites high-impact resumes and CVs that pass ATS screening and win recruiter attention"
+    }
+  },
+  "needs": ["writing"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "JayRHa",
+    "url": "https://github.com/JayRHa/agent-skills"
+  }
+}

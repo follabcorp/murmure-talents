@@ -1,0 +1,29 @@
+{
+  "id": "preparer-un-entretien",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Préparer un entretien",
+      "summary": "Prépare tes exemples vécus, les questions difficiles et une simulation d’entretien avec retour précis."
+    },
+    "en": {
+      "name": "interview-prep",
+      "summary": "Prepares a candidate for a specific job interview"
+    }
+  },
+  "needs": ["organizing"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT",
+  "origin": {
+    "kind": "public",
+    "author": "JayRHa",
+    "url": "https://github.com/JayRHa/agent-skills"
+  }
+}
