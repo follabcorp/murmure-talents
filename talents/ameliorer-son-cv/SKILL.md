@@ -40,3 +40,5 @@ Conventions vary by country: the American-style CV, without a photo and often sh
 One idea per point, one to two lines, strong verbs, and no "I was responsible for." Keep a complete master CV and adapt it to each application. Avoid lists of tasks without results, buzzwords without evidence, graphic templates that are hard to read, errors, and inconsistent dates. Review any estimate with the person before use.
 
 Reply in the language the person uses.
+
+Phrase d’essai ajoutée sans montée de version.
