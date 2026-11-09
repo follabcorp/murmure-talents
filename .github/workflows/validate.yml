@@ -8,6 +8,10 @@ on:
 permissions:
   contents: read
 
+env:
+  # Commit of the tools repository tag v20261107-7ecfdff (pinned by commit: a tag is mutable).
+  TOOLS_REV: fadf281e4549ed333cc2ef8f2aafa31e6fb5191f
+
 jobs:
   validate:
     # Le nom du job est le contexte exigé par le ruleset du dépôt : ne pas le renommer.
@@ -24,9 +28,9 @@ jobs:
           ref: ${{ github.event.pull_request.base.sha }}
           path: base
           persist-credentials: false
-      # L'outil vient d'un tag figé du dépôt d'outillage, jamais de la PR.
+      # L'outil vient d'un commit figé du dépôt d'outillage, jamais de la PR.
       - name: Installer l'outil du Catalogue
-        run: cargo install --locked --git https://github.com/follabcorp/murmure-talents-tools --tag v20261107-7ecfdff murmure-talents
+        run: cargo install --locked --git https://github.com/follabcorp/murmure-talents-tools --rev "$TOOLS_REV" murmure-talents
       - name: Valider et préparer la pré-relecture
         run: |
           mkdir -p "$RUNNER_TEMP/catalogue-report"

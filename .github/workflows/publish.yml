@@ -17,7 +17,8 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  TOOLS_TAG: v20261107-7ecfdff
+  # Commit of the tools repository tag v20261107-7ecfdff (pinned by commit: a tag is mutable).
+  TOOLS_REV: fadf281e4549ed333cc2ef8f2aafa31e6fb5191f
   BASE_URL: https://talents.murmureai.tech/v1/
   ROOT_PUBLIC_KEY: OARTzC2g9cWFq/1Gy1FGrnr3HN4Y1nkYouNOaplWF8U=
 
@@ -35,7 +36,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Installer l'outil du Catalogue
-        run: cargo install --locked --git https://github.com/follabcorp/murmure-talents-tools --tag "$TOOLS_TAG" murmure-talents
+        run: cargo install --locked --git https://github.com/follabcorp/murmure-talents-tools --rev "$TOOLS_REV" murmure-talents
       - name: Écrire la clé de publication
         env:
           PUBLICATION_KEY_B64: ${{ secrets.TALENTS_PUBLICATION_KEY }}
