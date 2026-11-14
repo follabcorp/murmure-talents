@@ -1,0 +1,24 @@
+{
+  "id": "ecrire-sur-whatsapp",
+  "version": "1.0.0",
+  "kind": "textOnly",
+  "localized": {
+    "fr": {
+      "name": "Écrire sur WhatsApp",
+      "summary": "Prépare un message et un lien WhatsApp ; tu l'envoies toi-même."
+    },
+    "en": {
+      "name": "Write on WhatsApp",
+      "summary": "Prepares a message and a WhatsApp link; you send it yourself."
+    }
+  },
+  "needs": ["organizing"],
+  "capabilities": [],
+  "requires": [],
+  "minimumMurmureVersion": "1.0.0",
+  "author": {
+    "name": "Murmure",
+    "github": ["thibault-ballof"]
+  },
+  "license": "MIT"
+}
