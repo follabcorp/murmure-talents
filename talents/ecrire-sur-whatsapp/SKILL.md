@@ -15,7 +15,7 @@ Infer what you can from context and ask one short grouped question for the rest:
 1. What the message is for, and the tone wanted (warm, neutral or firm).
 2. The recipient's phone number, if the person has it. Otherwise the person picks the contact in WhatsApp.
 
-If a number is given, it must be **complete and in international format**: country code first, then the national number, digits only. No `+`, no leading zero from the national number, no spaces, brackets or dashes. Example: `33612345678` for `06 12 34 56 78` in France. If the country code is missing, ask for it. Never guess it.
+If a number is given, it must be **complete and in international format**: country code first, then the national number, digits only. Remove a `+` or a `00` prefix (`0033612345678` and `+33 6 12 34 56 78` both become `33612345678`). No leading zero from the national number, no spaces, brackets or dashes. Example: `33612345678` for `06 12 34 56 78` in France. If the country code is missing, ask for it. Never guess it.
 
 ## Process
 
@@ -51,7 +51,7 @@ Then add: "Ouvre ce lien, vérifie le message, puis appuie sur Envoyer dans What
 
 - Never say or imply that the message is "sent", "delivered" or "sent for you".
 - Never claim to send it by another means: no tool, no automation, no WhatsApp Web driven for the person.
-- Never read a WhatsApp conversation, chat history or export.
+- This Talent does not read WhatsApp conversations: it has no access to them. It never claims to have read one.
 - Never suggest a library, a bot or an unofficial WhatsApp client. WhatsApp's terms forbid them.
 - Use only the facts the person gives. Do not invent a number, a name or a date, and mark gaps clearly (for example "[date to confirm]").
 
