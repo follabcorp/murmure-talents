@@ -65,7 +65,7 @@ langue de la personne. Les noms et résumés montrés à la personne restent loc
 dans `localized.fr` et `localized.en`, obligatoires. Les identifiants (`id`, `name` de
 l’en-tête, `requires`) ne changent pas.
 
-Installez l’outil (`cargo install --locked --git https://github.com/follabcorp/murmure-talents-tools --tag v20261107-7ecfdff murmure-talents`),
+Installez l’outil (`cargo install --locked --git https://github.com/follabcorp/murmure-talents-tools --tag v20261119-080a0c4 murmure-talents`),
 puis lancez `murmure-talents validate .` depuis la racine du dépôt.
 Joignez le rapport à la PR. La recherche de consignes suspectes, l’envoi de mail
 sans capacité, un `SKILL.md` qui semble ne pas être en anglais ou qui ne contient pas
@@ -139,7 +139,7 @@ in the person's language. The names and summaries shown to the person stay local
 in `localized.fr` and `localized.en`, which are mandatory. Identifiers (`id`, the
 `name` in the header, `requires`) do not change.
 
-Install the tool (`cargo install --locked --git https://github.com/follabcorp/murmure-talents-tools --tag v20261107-7ecfdff murmure-talents`),
+Install the tool (`cargo install --locked --git https://github.com/follabcorp/murmure-talents-tools --tag v20261119-080a0c4 murmure-talents`),
 then run `murmure-talents validate .` from the repository root,
 and attach its report.
 Explain warnings about suspicious instructions, email sending without capability, or
